@@ -1,7 +1,7 @@
 # SocialSight V2: MQP Data on Social Media
 by. Kiara Munz
 
-If you want a description of whats in the above viz, jump to the <a href='#results_section' target='_self'>Results</a> section!
+If you want a description of whats in the [above viz](https://vizhub.com/19kmunz/d1cf28e0bce34ca9a9e7606e5838e9d2), jump to the <a href='#results_section' target='_self'>Results</a> section!
 
 ## Motivations: WPI MQPs and Data Viz
 
