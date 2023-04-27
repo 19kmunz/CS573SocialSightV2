@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-size: 24px;
+}
+
+.xAxis, .yAxis {
+  font-size: 0.55em;
+}
+
+.radar-svg {
+  margin: auto; /* center horizontally */
+  display: block; /* remove any default margin and padding */
+  border: 2px solid black; /* set a 2-pixel black border */
+  font-size: 13px;
+}
+
+.app {
+  position: relative;
+}
+.graph {
+  position: absolute;
+}
+.yAxisLabel {
+  position: absolute;
+}
+.title {
+  font-size: 1em;
+  text-overflow: ellipsis;
+  margin: 10px;
+}
+.ts-control{
+  background-color: #e9e9ed !important;
+  background-image: url("https://www.svgrepo.com/show/487666/pencil-ui-2.svg") !important;
+  background-position: right .75rem center !important;
+  background-repeat: no-repeat !important;
+  background-size: 32px 24px !important;
+  
+}
+.ts-dropdown {
+  background-color: #f9f9fb !important;
+}
+.ts-dropdown, .ts-control {
+  font-family: monospace !important;
+  font-size: 0.7em !important;
+  line-height: 21px !important;
+  border: 1px solid #ababb5 !important;
+}
+.ts-control input {
+  font-size: 1em !important;
+}
+.ts-dropdown .active {
+  background-color: #e0e0e6 !important;
+  color: #303030 !important;
+}
+
+.radar-shape {
+  stroke-width: 2px; /* set the stroke width to 2 pixels */
+  stroke-linejoin: round; /* round the stroke linejoins */
+  fill-opacity: 0;
+  pointer-events: stroke;
+}
+
+.radar-label {
+  font-size: 1.3em;
+  text-anchor: middle;
+}
+.radar-title {
+  font-size: 2.2em;
+  text-anchor: middle;
+  dominant-baseline: hanging;
+}
+.legend-title{
+  font-weight: bold;
+}
+
+.unchecked.legend-item {
+  opacity: 0.4;
+}
+.unchecked.legend-item > rect {
+  fill-opacity: 0;
+  stroke-width: 1px;
+}
+.unchecked.radar-shape {
+  display: none;
+}
+
+/* hovers */
+.radar-shape.hover {
+  stroke-width: 6px;
+}
+.radar-shape.not-hover {
+  stroke-opacity: 0.2
+}
+.legend-item.hover {
+  font-weight: bold;
+}
+.legend-item.hover > rect {
+ 	stroke-width: 3px;
+  stroke: black;
+}
+
+.select-image {
+  pointer-events: none;
+}
+.select-text{
+  pointer-events: none;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+.select-title{
+  text-anchor: middle;
+  font-size: 1.8em;
+}
+.select-subtitle{
+  text-anchor: middle;
+}
+.select-description{
+  text-anchor: middle;
+  dominant-baseline: hanging;
+}
+
+.disclaimer {
+  text-anchor: end;
+  font-size: 0.6em;
+}
+
+.back-rect{
+  cursor: pointer;
+}
+.back-text{
+  pointer-events: none;
+  dominant-baseline: hanging;
+  font-size:0.6em;
+}
+
+.mediaSelect {
+  font-size:0.7em;
+}
+.mediaSelect > option {
+  font-size: 1em;
+}
+text, select {
+  font-family: monospace;
+}
